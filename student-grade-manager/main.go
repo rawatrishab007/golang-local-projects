@@ -14,7 +14,7 @@ type student struct {
 func main() {
 	//slice for storing data (act as a database )
 	var students []student
-	for {
+	for { //making an infinite for loop so that we can exit the program on our own
 		fmt.Println("\n--- Student Grade Manager ---")
 		fmt.Println("1. Add Student")
 		fmt.Println("2. View All Marks")
