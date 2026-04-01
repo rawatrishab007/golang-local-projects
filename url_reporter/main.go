@@ -34,6 +34,8 @@ func main() {
 		"https://www.stackoverflow.com",
 		"https://www.golang.org",
 		"https://www.reddit.com",
+		"student.vedam.org",
+		"https://www.crazygames.com/",
 	}
 	ch := make(chan result, len(websites))
 	for _, url := range websites {
